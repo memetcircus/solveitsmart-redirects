@@ -7,7 +7,7 @@
     const urlParams = new URLSearchParams(window.location.search);
     const id = urlParams.get("id");
     if (id) {
-      window.location.href = `solveitsmart://problem/${id}`;
+      window.location.href = `SolveItSmart://problem/${id}`;
     } else {
       document.write("<p>Missing problem ID.</p>");
     }
